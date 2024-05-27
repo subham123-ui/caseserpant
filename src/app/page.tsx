@@ -4,6 +4,7 @@
 import { Icons } from "@/components/Icons";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
+import { Reviews } from "@/components/Reviews";
 import { Check, Star } from "lucide-react";
 
 export default function Home() {
@@ -158,6 +159,8 @@ export default function Home() {
                 <Star className="h-5 w-5 text-green-500 fill-green-600" />
                 <Star className="h-5 w-5 text-green-500 fill-green-600" />
                 {/* <Star className="h-5 w-5 text-green-500 fill-green-600" /> */}
+            
+                
               </div>
               <div className="text-lg leading-8">
                 <p>
@@ -181,6 +184,13 @@ export default function Home() {
             </div>
           </div>
         </MaxWidthWrapper>
+
+
+        {/* Animated review section */}
+
+        <div className="pt-16">
+          <Reviews/>
+        </div>
       </section>
     </div>
   );
