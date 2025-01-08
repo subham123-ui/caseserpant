@@ -25,7 +25,7 @@ export default function Home() {
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
                 Capture your favorite memories with your own,{" "}
                 <span className="font-semibold">one-of-one</span> phone case.
-                CaseSerpant allows you to protect your memories, not just your
+                CaseSerpent allows you to protect your memories, not just your
                 phone case.
               </p>
               <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
@@ -119,7 +119,7 @@ export default function Home() {
               </span>{" "}
               say
             </h2>
-            <img src="/snake-2.png" className="w-24 order-0 lg:order-2" />
+            <img src="/snake-2.png" className="w-24 order-0 lg:order-2"  alt="snakeimage"/>
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
@@ -165,7 +165,7 @@ export default function Home() {
               <div className="text-lg leading-8">
                 <p>
                   "I usually keep my phone together with my keys in my pocket
-                  and that led to some pretty heavy scratchmarks on all of my
+                  and that led to some pretty heavy scratch marks on all of my
                   last phone cases. This one, besides a barely noticeable
                   scratch on the corner,{" "}
                   <span className="p-0.5 bg-slate-800 text-white">looks brand new after about half a year</span>. I dig it."
